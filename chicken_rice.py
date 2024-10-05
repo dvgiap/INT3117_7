@@ -1,7 +1,7 @@
 def calculate_total_price(x, y):
     meal_price = 50000
 
-    if x < 0 or x > 10 or y < 0 or y > 10:
+    if x < 1 or x > 10 or y < 0 or y > 10:
         print("Input khong hop le")
         return
     elif y == 0:
