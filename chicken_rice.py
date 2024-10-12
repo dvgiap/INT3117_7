@@ -8,7 +8,7 @@ def calculate_total_price(x, y):
         total_price = meal_price * x
     elif 0 < y <= 2:
         total_price = meal_price * x + 10000
-    elif 2 < y <= 10:
+    else:
         total_price = meal_price * x + 10000 + (y - 2) * 5000
     
     return total_price
